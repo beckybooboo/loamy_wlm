@@ -43,7 +43,7 @@ export default function Peek() {
           {posts.map((post) => (
             <article
               key={post.id}
-              className="flex flex-col items-start justify-between"
+              className="flex flex-col items-start"
             >
               <div className="relative w-full flex items-center">
                 <div className="p-6 aspect-[16/9] w-full rounded-2xl bg-primary/5 sm:aspect-[2/1] lg:aspect-[3/2]">
